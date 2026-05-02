@@ -1,8 +1,8 @@
-# Lab: BroadcastReceiver Demo 📡
+# Lab: BroadcastReceiver Demo
 
 Ce projet est une application Android démontrant l'utilisation des **Broadcast Receivers** (statiques et dynamiques) pour intercepter des événements système et personnalisés.
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 1.  **Suivi du Mode Avion (Dynamique)** :
     *   Enregistrement du receiver uniquement lorsque l'utilisateur le décide via l'interface.
@@ -17,7 +17,7 @@ Ce projet est une application Android démontrant l'utilisation des **Broadcast 
     *   Démonstration de l'envoi d'un message interne à l'application.
     *   Utilisation d'une **Intent explicite** pour respecter les restrictions de sécurité des versions récentes d'Android (API 26+).
 
-## 🛠️ Installation & Test
+## Installation & Test
 
 1.  **Clonage du projet** :
     ```bash
@@ -32,7 +32,7 @@ Ce projet est une application Android démontrant l'utilisation des **Broadcast 
     *   **Custom Broadcast** : Cliquez sur "Envoyer Custom Broadcast" pour voir le message s'afficher immédiatement.
     *   **Boot** : Redémarrez l'appareil pour voir le Toast apparaître après le chargement du système.
 
-## 📝 Structure du Code
+## Structure du Code
 
 *   `MainActivity.java` : Gère l'interface et l'enregistrement dynamique du receiver.
 *   `AirplaneModeReceiver.java` : Logique de détection du changement de mode avion.
@@ -40,5 +40,5 @@ Ce projet est une application Android démontrant l'utilisation des **Broadcast 
 *   `CustomEventReceiver.java` : Reçoit les messages personnalisés envoyés par l'application.
 *   `AndroidManifest.xml` : Contient les permissions et les déclarations des receivers statiques.
 
-## ⚖️ License
+## License
 Ce projet est réalisé dans le cadre d'un laboratoire d'apprentissage Android.
